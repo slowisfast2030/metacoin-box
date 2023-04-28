@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.5.13;
 
 // These files are dynamically created at test time
 import "truffle/Assert.sol";

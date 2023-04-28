@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 // Tells the Solidity compiler to compile only from v0.8.13 to v0.9.0
-pragma solidity ^0.8.13;
+pragma solidity ^0.5.13;
 
 import "./ConvertLib.sol";
 
@@ -13,7 +13,8 @@ contract MetaCoin {
 
 	event Transfer(address indexed _from, address indexed _to, uint256 _value);
 
-	constructor() {
+	// 将版本由0.8.13 --> 0.5.13，需要给构造函数添加public
+	constructor() public {
 		balances[tx.origin] = 10000;
 	}
 
