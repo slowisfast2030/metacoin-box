@@ -44,7 +44,7 @@ module.exports = {
     
     // truffle console --network ganache
     // truffle migrate --network ganache
-    ganache: {
+    metacoin: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
