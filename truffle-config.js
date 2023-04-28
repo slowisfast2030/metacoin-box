@@ -70,3 +70,10 @@ module.exports = {
     }
   }
 };
+
+/**
+ * 启动ganache后，如果想让metamask连接到ganache（本地网络），将metamask的网络设置为localhost:8545。
+ * 如果想在metamask中看到ganache中的账户，需要导入ganache中的账户到metamask中。
+ * 可以在ganache中点击key图标，将私钥复制到metamask中。
+ * 也可以在ganache中导出助记词，然后在metamask中导入助记词。
+ */
