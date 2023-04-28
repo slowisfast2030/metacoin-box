@@ -43,6 +43,7 @@ module.exports = {
     // options below to some value.
     
     // truffle console --network ganache
+    // truffle migrate --network ganache
     ganache: {
      host: "127.0.0.1",     // Localhost (default: none)
      port: 8545,            // Standard Ethereum port (default: none)
