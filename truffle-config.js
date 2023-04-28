@@ -60,10 +60,11 @@ module.exports = {
     // timeout: 100000
   },
 
+  // 从github下载的代码是0.8.13的版本，但由于网络原因，这里下载不了，所以改成自带的0.5.16版本
   // Configure your compilers
-  // compilers: {
-  //   solc: {
-  //     version: "0.5.13",      // Fetch exact version from solc-bin
-  //   }
-  //}
+  compilers: {
+    solc: {
+      version: "0.5.16",      // Fetch exact version from solc-bin
+    }
+  }
 };
