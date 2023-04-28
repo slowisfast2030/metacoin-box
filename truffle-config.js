@@ -78,3 +78,18 @@ module.exports = {
  * 可以在ganache中点击key图标，将私钥复制到metamask中。
  * 也可以在ganache中导出助记词，然后在metamask中导入助记词。
  */
+
+/**
+ * ganache在本地启动了一条私链（truffle develop在本地也启动了一条私链）
+ * 
+ * ganache中默认给了10个账户，每个账户都有100个以太币。
+ * 这里需要注意，私链和账户是两个概念。私链中可以没有账户。
+ * 
+ * metamask如果尚未输入助记词，可以输入ganache的助记词。
+ * 如果已经有了助记词，可以输入10个账户的私钥。
+ * 这两种方法都可以导入ganache中的账户到metamask中。
+ * 
+ * metamask是钱包，可以连接到不同的链（私链公链都ok）。
+ * 自然可以连接到本地的ganache私链。
+ * 配置metamask的网络为localhost:8545。
+ */
